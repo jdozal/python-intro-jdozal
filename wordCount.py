@@ -48,7 +48,7 @@ def check_word(word):
     
 # Reading every line of file 
 for line in inFile:
-    print(re.split('\W+', line))
+    #print(re.split('\W+', line))
     for word in re.split('\W+', line):
         word=word.lower()
         check_word(word)
